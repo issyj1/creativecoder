@@ -50,7 +50,8 @@ export default function Navbar() {
 
         <div className="contact-content">
 
-          <p className="contact-label">GET IN TOUCH</p>
+          <p className="contact-label">Hello! &#9733;
+          </p>
 
           <h2>
           <span className="font-three">Get</span>{" "}
@@ -73,15 +74,15 @@ export default function Navbar() {
               <span>Email</span>
               <span className="font-five">
               <a href="isabellejohnson826@gmail.com">
-                hello@example.com ↗
+                me here ↗
               </a>
               </span>{" "}
             </div>
 
             <div>
-              <span>LinkedIn</span>
-              <a href="https://instagram.com/" target="_blank" rel="noreferrer">
-                LinkedIn ↗
+              <span>Or</span>
+              <a href="https://www.linkedin.com/in/isabelle-johnson-844a9a109/" target="_blank" rel="noreferrer">
+                on LinkedIn ↗
               </a>
             </div>
 

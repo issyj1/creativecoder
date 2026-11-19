@@ -106,7 +106,6 @@ body {
     font-size: 1em;
     box-sizing: border-box;
     background-color: #fafafa;
-    letter-spacing: 0.09em;
     margin: 0;
     overflow-x: hidden;
     max-width: 100%;
@@ -233,16 +232,21 @@ right: 5%;
 
 
 
-.font-one {
-  font-family: 'NB', serif;
-  font-style: italic;
-
+.contact-content h2 .font-one {
+  opacity: 1;
+  font-family: 'BB', serif;
 }
 
-.font-two {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 0.6em;
+.contact-details div:first-child a {
+  color: black;
+  font-family: "BB", serif;
+  font-size: 2.3em;
+}
 
+.contact-details div:last-child a {
+  opacity: 1;
+  font-family: "Aktivregular", sans-serif;
+  font-size: 1.7em;
 }
 
 .name-letter {
@@ -299,10 +303,6 @@ right: 5%;
 
  
 
-ul.menu {
-  margin-top: 4px;
-}
-
 
 /*new menu stuff*/
 
@@ -333,8 +333,8 @@ ul.menu {
   inset: 0;
   width: 100%;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.9);
-  z-index: 9999;
+  background: rgba(255, 255, 255, 1);
+  z-index: 1000;
 
   display: flex;
   align-items: center;
@@ -374,6 +374,7 @@ ul.menu {
 .contact-content {
   width: 90%;
   max-width: 1100px;
+  z-index: 9999;
 }
 
 
@@ -382,7 +383,7 @@ ul.menu {
 }
 
 .contact-content h2 {
-  font-size: clamp(20px, 10vw, 130px);
+  font-size: clamp(10px, 10vw, 30px);
   font-weight: 300;
   line-height: 0.95;
   letter-spacing: -0.05em;
@@ -407,18 +408,30 @@ ul.menu {
 .contact-details a {
   color: inherit;
   text-decoration: none;
+  color: #000;
+
 }
 
 .contact-details a:hover {
   opacity: 0.5;
 }
 
+.contact-content {
+  color: #000;
+  opacity: 1;
+}
+
+.contact-content h2,
+.contact-content h2 span {
+  opacity: 1;
+  color: #000;
+
+}
+
 /* MOBILE */
 
 @media (max-width: 768px) {
-  .contact-content h2 {
-    font-size: 60px;
-  }
+ 
 
   .contact-details {
     flex-direction: column;
@@ -454,27 +467,6 @@ ul.menu {
   margin: 0 0 1em;
 }
 
-  .nav li {
-    list-style: none;
-  }
-
-
-  .menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    font-size: 0.9em;
-
-  }
-
-  .nav-item {
-    display: block;
-    width: 100%;
-
-  }
 
   
   .navbar {
@@ -484,6 +476,7 @@ color: black;
 text-decoration: none;
 padding: 1%;
 font-family: "Shango";
+letter-spacing: 0.1em;
 }
   
 .navbar a{
@@ -525,85 +518,5 @@ color: black;
 
 
   
-
-
-
-
-@media screen and (min-width: 1100px) {
-
-}
-.hero {
-  position: fixed;
-  inset: 0;
-  width: 90%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: -1; /* behind everything */
-margin: 0 auto;
-}
-
-
-
-
-
-
-        @media only screen and (max-width: 450px) {
-
-          body {
-            max-width: 100%;
-            margin: 0px;
-          }
-          body {
-            overflow-y: scroll;
-          }
-    
-     .logo {
-      margin: 0 auto;
-      padding-left: 0%;
-      padding-top: 2%;
-    }
-
-
-    .logo svg,
-    .logo img {
-      width: auto;
-      display: block;
-      margin: 0 auto;
-      width: 95px;
-
-    }
-     
-    .hamburger {
-      top: 3%;
-      left: 3%;
-
-  .nav {
-    padding-left: 5px;
-    left: 0px;
-  }
-}
-  
-
-
-        /* Next & previous buttons */
-
-  
- 
-
-
-
-
-
-
-    :root {
-      overscroll-behavior: none;
-    }
-
-
-
-
-  }
-
-
 
 
