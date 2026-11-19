@@ -1,4 +1,8 @@
+const base = import.meta.env.BASE_URL;
+
 export const fashionImages = [
-        "/img/fashion/auckeyellow.jpg",
-        "/img/fashion/georgehair.jpg"
-  ];
+  base + "img/fashion/auckeyellow.jpg",
+  base + "img/fashion/georgehair.jpg",
+
+];
+

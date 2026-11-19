@@ -11,6 +11,10 @@ export default function GalleryPage() {
     return <div>Gallery not found</div>; // 👈 should show instead of blank
   }
 
-  return <Gallery images={gallery.images} />;
-
+  return (
+    <Gallery
+      images={gallery.images}
+      galleryId={gallery.id}
+    />
+  );
 }

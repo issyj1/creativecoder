@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL;
 
 const images = [
  
-  base + "img/things/rippleflower.jpg",
+  base + "img/ambient/catyawn.jpg",
 
   base + "img/things/pinkfloweronblue.jpg",
   base + "img/portrait/431A6811.jpg",
