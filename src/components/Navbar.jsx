@@ -31,7 +31,7 @@ export default function Navbar() {
           Lottie S<span className="font-four">ole</span>, Senior
           <span className="font-two"> Creative</span>, TBWA Media Arts Lab
           <span className="font-three"> Los Angeles</span>
-        </>
+        </> 
       ),      
       quote: (
         <>
@@ -154,9 +154,15 @@ export default function Navbar() {
 
           <p className="contact-label">
             Hello! &#9733;
+            <span className="font-two">
+          {'Hello! Ciao, <h1>Hi!</h1>, console.log("Hello, World!"), Buenas!'}
+          </span>{" "}
           </p>
 
           <h2>
+         
+          <br />
+          <br />
             <span className="font-three">Get</span>{" "}
             <br />
             <span className="font-two">in</span>{" "}

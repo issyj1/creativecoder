@@ -111,24 +111,32 @@ export default function App() {
        
       
 <h1 className="intro-copy">
+
   <span className="font-one">Isabelle Johnson</span>{" "}
   <span className="font-two">is a multilingual art director</span>{" "}
   <span className="font-three">and developer.</span>{" "}
   <span className="font-four">She specialises in digital design</span>{" "}
-  and <span className="font-five">creative coding,</span>{" "}
+ <span className="font-five"> and creative coding,</span>{" "}
   treating the internet as a versatile medium for creativity and design augmentation through computer programming.
 
-  <span className="font-six"> She founded New World, an international creative studio</span>{" "}
-  delivering innovative websites and digital experiences that are full of character, with a flair for the exuberance of high fashion.
+  <span className="font-two"> She founded New World, an international creative studio</span>{" "}
+  
+  delivering innovative websites  
+  <span className="font-four">and digital experiences that</span>{" "}
+   are full of character, with a flair for the exuberance of high fashion.
 
   <span className="font-two">She has collaborated with prominent advertising agencies</span>{" "}
   including <span className="font-one">Mother and Saatchi and Saatchi,</span>{" "}
   as well as projects for Vogue France, EE and IKEA.
 
   <span className="font-two">Isabelle’s career began</span>{" "}
-  as an advertising creative, the processes of which inform the way she approaches programming:
+  <span className="font-six">as an advertising creative, the processes</span>{" "}
+   of which inform the way she approaches programming:
   <span className="font-one"> treating each website as a conceptual piece of communication</span>{" "}
-  for her clients, finding the right concept, visuals and words that set off their story.
+  <span className="font-one"> for her clients,</span>{" "}
+
+   finding the right concept, visuals and words 
+   <span className="font-three">that set off their story.</span>{" "}
 
   <span className="font-three">Isabelle’s approach often integrates technical programming skills</span>{" "}
   with a <span className="font-two">restrained aesthetic sensibility,</span>{" "}
@@ -139,16 +147,37 @@ export default function App() {
   and contemporary art.
 
   <span className="font-two">By blending technology and artistic direction,</span>{" "}
-  she creates immersive digital environments that challenge standard web structures and offer new ways of interacting with online content.
+  she creates 
+  <span className="font-six"> immersive digital environments</span>{" "}
+  <span className="font-four"> that challenge standard web structures </span>{" "}
+  <span className="font-one"> and offer new ways </span>{" "}
+  <span className="font-two"> of interacting with</span>{" "}
+  <span className="font-six"> online content.</span>{" "}
+
+   
 </h1>
 
 
         </section>
 
-        {/* SELECTED WORK */}
-       
+   
       </main>
+     {/* FOOTER */}
+     <footer className="footer">
+  <p>
+    Reach Isabelle at{" "}
+    <a href="mailto:isabellejohnson826@gmail.com">
+      isabellejohnson826@gmail.com
+    </a>
+  </p>
 
+
+  <p>
+    {'Say Hello! Ciao, <h1>Hi!</h1>, console.log("Hello, World!"), Buenas!'}
+  </p>
+
+  <p>&#9733;</p>
+</footer>
       <section className="photo-section">
 
 </section>
