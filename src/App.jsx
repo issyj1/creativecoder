@@ -109,45 +109,39 @@ export default function App() {
         {/* BIOGRAPHY WALL OF TEXT */}
         <section className="intro-section">
        
-        <h1 className="intro-copy">
-            <span className="font-one">Isabelle Johnson</span>{" "}
-            <span className="font-two">is a multilingual art director</span>{" "}
-            <span className="font-three">and developer.</span>{" "}
-            <span className="font-four">She specialises in digital design and creative</span>{" "}
-            <span className="font-five">coding, treating the internet as a </span>{" "}
-            versatile medium for creativity and design augmentation
+      
+<h1 className="intro-copy">
+  <span className="font-one">Isabelle Johnson</span>{" "}
+  <span className="font-two">is a multilingual art director</span>{" "}
+  <span className="font-three">and developer.</span>{" "}
+  <span className="font-four">She specialises in digital design</span>{" "}
+  and <span className="font-five">creative coding,</span>{" "}
+  treating the internet as a versatile medium for creativity and design augmentation through computer programming.
 
-            through computer programming.
-            <span className="font-six">As the founder of New World Creative Studio, her practice involves a high level of collaboration with prominent studios and brands including EE, Saatchi and Saatchi, Vogue France, as well as projects for IKEA.</span>{" "}
-            <span className="font-two"> Isabelle’s career began </span>{" "}
-         as an advertising creative, 
-            <span className="font-two">the processes of which inform </span>{" "}
-            <span className="font-one">the way she approaches programming:</span>{" "}
-             treating each website as a conceptual piece of communication for her clients.
+  <span className="font-six"> She founded New World, an international creative studio</span>{" "}
+  delivering innovative websites and digital experiences that are full of character, with a flair for the exuberance of high fashion.
 
+  <span className="font-two">She has collaborated with prominent advertising agencies</span>{" "}
+  including <span className="font-one">Mother and Saatchi and Saatchi,</span>{" "}
+  as well as projects for Vogue France, EE and IKEA.
 
+  <span className="font-two">Isabelle’s career began</span>{" "}
+  as an advertising creative, the processes of which inform the way she approaches programming:
+  <span className="font-one"> treating each website as a conceptual piece of communication</span>{" "}
+  for her clients, finding the right concept, visuals and words that set off their story.
 
+  <span className="font-three">Isabelle’s approach often integrates technical programming skills</span>{" "}
+  with a <span className="font-two">restrained aesthetic sensibility,</span>{" "}
+  resulting in ambitious websites that
+  <span className="font-six"> function as digital art pieces.</span>{" "}
+  Her work sits at the intersection of
+  <span className="font-one"> disruptive ideas, fashion,</span>{" "}
+  and contemporary art.
 
+  <span className="font-two">By blending technology and artistic direction,</span>{" "}
+  she creates immersive digital environments that challenge standard web structures and offer new ways of interacting with online content.
+</h1>
 
-
-            <span className="font-three"> Isabelle’s approach often integrates technical </span>{" "}
-            <span className="font-two">programming skills with a refined aesthetic</span>{" "}
-            <span className="font-four">sensibility, resulting in websites</span>{" "}
-            <span className="font-six">that function as digital art pieces.</span>{" "}
-            <span className="font-four">Her work </span>{" "}
-            <span className="font-one">sits on the intersection </span>{" "}
-            <span className="font-two">of disruptive ideas, fashion, </span>{" "}
-            <span className="font-one">and contemporary art.</span>{" "}
-            <span className="font-two">By blending technology</span>{" "}
-
-            and artistic direction,
-            <span className="font-two">she creates immersive digital</span>{" "}
-            <span className="font-four">environments that challenge</span>{" "}
-            <span className="font-one">standard web structures</span>{" "}
-
-            and offer new ways
-            <span className="font-one">of interacting with online content.</span>{" "}
-          </h1>
 
         </section>
 
